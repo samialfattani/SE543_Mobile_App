@@ -13,10 +13,10 @@ main(List<String> args)
   print(p.getAge);
 
   Person p3 = new Person('dd', 22, 2500) ;
+  print(p3.getAge);
 
   List<Person> names = new List<Person>() ;
   names.add( new Person('ss') );
-  names.first.
 
   //names.
 }

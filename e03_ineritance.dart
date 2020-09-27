@@ -30,7 +30,7 @@ class Employee extends Person
     super.name = 'NEW EMP';
     super.age = 0;
     this.salary = 0; 
-  };
+  }
   
 
   @override
@@ -45,5 +45,13 @@ main(List<String> args) {
     print(ahmed.age);
     print(ahmed.salary);
 
-    Employee ali = new Employee.init(init);
+    Person ali = new Person.init();
+
+    ahmed.show();
+    ali.show();
+
+    var mylist = [ahmed, ali];
+    mylist.forEach( (e) {
+        e.show();
+    };
 }
